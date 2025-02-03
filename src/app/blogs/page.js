@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Footer from "../components/Footer";
+import Footer from "../components/footer";
 import Blog from "../data/blog"; // Importamos la lista de blogs
 
 export default function BlogPage() {
