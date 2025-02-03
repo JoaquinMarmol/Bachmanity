@@ -34,7 +34,7 @@ export default function BlogPage() {
           <h1 className="text-4xl md:text-6xl font-bold">Building Bachmanity</h1>
           <p className="text-lg text-[#5A5A5A] mt-2">
             Follow our journey to build the best system for organizing 
-            <span className="text-blue-500 text-[28px] font-caveat font-bold ml-2">Modern</span> information.
+            <span className="text-[#1F80B9] text-[28px] font-caveat font-bold ml-2">Modern</span> information.
           </p>
         </section>
 
