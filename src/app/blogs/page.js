@@ -43,28 +43,21 @@ export default function BlogPage() {
           <h2 className="text-2xl font-bold mb-4">Featured Articles</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"> {/* Grid Responsivo */}
             {Blog.map((post) => (
-              <div 
-                key={post.id} 
-                className="bg-gray-400/40 rounded-lg p-6 cursor-pointer hover:bg-gray-500/40 transition"
-                onClick={() => toggleBlog(post.id)}
-              >
-                <p className="text-sm text-gray-600">{post.date}</p>
-                <h3 className="text-xl font-bold mt-2">{post.title}</h3>
-                {expandedBlog === post.id ? (
-                  <p className="text-sm text-gray-700 mt-1">{post.content}</p>
-                ) : (
-                  <p className="text-sm text-gray-700 mt-1">{post.excerpt}</p>
-                )}
-                <span className="text-blue-500 font-medium block mt-2">
-                  {expandedBlog === post.id ? "Read less ▲" : "Read more ▼"}
-                </span>
+              <div key={post.id} className="bg-[#ded8ca] rounded-lg p-6 shadow-md">
+                <h2 className="text-2xl font-bold text-[#37352F]">{post.title}</h2>
+                <p className="text-gray-600 text-sm">{post.date}</p>
+                <p className="mt-4 text-[#37352F]">{post.excerpt}</p>
+                <a
+                  href={`/blog/${post.id}`}
+                  className="mt-4 inline-block text-[#1F80B9] font-bold"
+                >
+                  Read more →
+                </a>
               </div>
             ))}
           </div>
         </section>
       </div>
-
-      {/* Footer */}
       <Footer />
     </div>
   );
