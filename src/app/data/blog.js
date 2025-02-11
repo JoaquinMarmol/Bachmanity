@@ -81,35 +81,103 @@ const Blog = [
   },
   {
     id: 3,
-    date: "Friday, March 15, 2025",
-    title: "Organizing Information: The Ultimate Guide",
-    excerpt: "Learn how to effectively structure and categorize data to boost your productivity and minimize chaos.",
+    date: "Monday, February 5, 2025",
+    title: "AI & Productivity: Unlocking a New Era",
+    excerpt: "Explore how AI tools are transforming productivity and helping us achieve more with less effort.",
     sections: [
       {
         type: "title",
-        content: "Why Data Organization Matters",
+        content: "The Power of Artificial Intelligence",
       },
       {
         type: "text",
-        content: "In a world overflowing with information, having a clear and structured approach to data is crucial. Well-organized data not only saves time but also reduces stress and helps you make informed decisions faster.",
+        content: "Artificial Intelligence is no longer just a buzzword. From virtual assistants to automated workflows, AI is becoming a key player in our daily lives. It helps us make better decisions, reduce errors, and free up time for creative tasks.",
       },
       {
         type: "image",
-        src: "https://source.unsplash.com/800x400/?organization,data",
-        alt: "Data organization example",
+        src: "https://source.unsplash.com/800x400/?artificialintelligence,technology",
+        alt: "AI enhancing productivity",
       },
       {
         type: "subtitle",
-        content: "Practical Tips for Organizing Your Data",
+        content: "AI in Personal and Professional Life",
       },
       {
         type: "text",
-        content: "Start by categorizing your files by project or topic. Use clear and consistent naming conventions. Take advantage of tools like cloud storage and tagging systems to keep everything within reach.",
+        content: "In your personal life, AI helps organize your schedules, provide reminders, and even suggest the best time for activities. At work, it automates data analysis, customer support, and content creation.",
       },
       {
         type: "image",
-        src: "https://source.unsplash.com/800x400/?files,folders",
-        alt: "Organized folders",
+        src: "https://source.unsplash.com/800x400/?ai,tools",
+        alt: "AI tools in daily life",
+      },
+    ],
+  },
+  {
+    id: 4,
+    date: "Monday, February 5, 2025",
+    title: "AI & Productivity: Unlocking a New Era",
+    excerpt: "Explore how AI tools are transforming productivity and helping us achieve more with less effort.",
+    sections: [
+      {
+        type: "title",
+        content: "The Power of Artificial Intelligence",
+      },
+      {
+        type: "text",
+        content: "Artificial Intelligence is no longer just a buzzword. From virtual assistants to automated workflows, AI is becoming a key player in our daily lives. It helps us make better decisions, reduce errors, and free up time for creative tasks.",
+      },
+      {
+        type: "image",
+        src: "https://source.unsplash.com/800x400/?artificialintelligence,technology",
+        alt: "AI enhancing productivity",
+      },
+      {
+        type: "subtitle",
+        content: "AI in Personal and Professional Life",
+      },
+      {
+        type: "text",
+        content: "In your personal life, AI helps organize your schedules, provide reminders, and even suggest the best time for activities. At work, it automates data analysis, customer support, and content creation.",
+      },
+      {
+        type: "image",
+        src: "https://source.unsplash.com/800x400/?ai,tools",
+        alt: "AI tools in daily life",
+      },
+    ],
+  },
+  {
+    id: 5,
+    date: "Monday, February 5, 2025",
+    title: "AI & Productivity: Unlocking a New Era",
+    excerpt: "Explore how AI tools are transforming productivity and helping us achieve more with less effort.",
+    sections: [
+      {
+        type: "title",
+        content: "The Power of Artificial Intelligence",
+      },
+      {
+        type: "text",
+        content: "Artificial Intelligence is no longer just a buzzword. From virtual assistants to automated workflows, AI is becoming a key player in our daily lives. It helps us make better decisions, reduce errors, and free up time for creative tasks.",
+      },
+      {
+        type: "image",
+        src: "https://source.unsplash.com/800x400/?artificialintelligence,technology",
+        alt: "AI enhancing productivity",
+      },
+      {
+        type: "subtitle",
+        content: "AI in Personal and Professional Life",
+      },
+      {
+        type: "text",
+        content: "In your personal life, AI helps organize your schedules, provide reminders, and even suggest the best time for activities. At work, it automates data analysis, customer support, and content creation.",
+      },
+      {
+        type: "image",
+        src: "https://source.unsplash.com/800x400/?ai,tools",
+        alt: "AI tools in daily life",
       },
     ],
   },

@@ -8,12 +8,12 @@ export default function Home() {
         {/* Navbar */}
         <nav className="flex justify-between items-center md:px-10 py-6">
           <Image src="/logo.png" alt="Logo" width={100} height={100} />
-          <ul className="flex gap-10 items-center">
+          <ul className="flex gap-4 md:gap-10 items-center">
             <div>
               <a href="/blogs" className="text-[#37352F] font-extrabold">Blog</a>
               <Image src="/SVG.svg" alt="Logo" width={40} height={10} />
             </div>
-            <a href="#" className="bg-[#37352F] text-white px-4 py-2 rounded-full">Get early access →</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSduwRil1hjshz9lrA4vTnqdXH8XwTpyPbH57M034L73W8AgEg/viewform?usp=header" target="_blank" className="bg-[#37352F] text-white px-4 py-2 rounded-full">Get early access →</a>
           </ul>
         </nav>
         
@@ -32,7 +32,7 @@ export default function Home() {
             <img src="/tiktok.png" alt="TikTok" className="cursor-pointer scale-[0.7]"/>
             <img src="/linkedin.png" alt="LinkedIn" className="cursor-pointer scale-[0.7]"/>
           </div>
-          <a href="#" className="bg-[#37352F] text-white px-6 py-3 rounded-full inline-block">Get early access →</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSduwRil1hjshz9lrA4vTnqdXH8XwTpyPbH57M034L73W8AgEg/viewform?usp=header" target="_blank" className="bg-[#37352F] text-white px-6 py-3 rounded-full inline-block">Get early access →</a>
           <p className="mt-2 text-sm text-[#37352F]">Join the waitlist to receive early access</p>
         </section>
         
@@ -53,7 +53,7 @@ export default function Home() {
             </p>
             <p className="text-xl font-bold text-[#37352F]">way to grow your business?</p>
           </div>
-          <a href="#" className="bg-[#37352F] text-white px-6 py-3 rounded-full inline-block mt-4">Get early access →</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSduwRil1hjshz9lrA4vTnqdXH8XwTpyPbH57M034L73W8AgEg/viewform?usp=header" target="_blank" className="bg-[#37352F] text-white px-6 py-3 rounded-full inline-block mt-4">Get early access →</a>
           <p className="mt-2 text-sm text-[#37352F]">Join the waitlist to receive early access to Day.ai</p>  
         </section>
       </div>
